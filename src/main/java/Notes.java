@@ -11,7 +11,7 @@ class Notes {
 		for (int j = 0; j < numArray.length - 1 && swapped; j++) {
 			swapped = false;
 			for (int i = 0; i < numArray.length - 1 - j; i++) {
-				if (numArray[i] > numArray[i + 1]) {
+				if (numArray[i] < numArray[i + 1]) {
 					// swap
 					int temp = numArray[i];
 					numArray[i] = numArray[i + 1];
